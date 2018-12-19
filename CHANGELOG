@@ -5,7 +5,7 @@ devel
 
   As keys are strings they are now sorted as strings, an exception in the
   front-end that treated strings representing numbers differently has been
-  removed. Therefor "10" will be less than "9"
+  removed. Therefore "10" will be less than "9"
 
 * fixed a rare thread local dead lock situation in replication:
   If a follower tries to get in sync in the last steps it requires
